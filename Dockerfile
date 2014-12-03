@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER Docker Education Team <education@docker.com>
+MAINTAINER Docker Education hu Team <education@docker.com>
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q curl python-all python-pip wget
 ADD ./webapp /opt/webapp/
